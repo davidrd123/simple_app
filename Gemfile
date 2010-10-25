@@ -16,6 +16,7 @@ group :development do
   gem "rspec-expectations", :git => "git://github.com/rspec/rspec-expectations.git"
   gem "rspec-mocks",        :git => "git://github.com/rspec/rspec-mocks.git"
 
+  gem 'annotate-models', '1.0.4'
   gem 'spork', '0.8.4'
 end
 
