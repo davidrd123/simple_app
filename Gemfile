@@ -1,8 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.1'
 gem 'autotest'
 gem 'ZenTest'
+gem 'gravatar_image_tag', '0.1.0'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -18,6 +20,7 @@ group :development do
 
   gem 'annotate-models', '1.0.4'
   gem 'spork', '0.8.4'
+  gem 'factory_girl_rails', '1.0'
 end
 
 group :test do
@@ -27,7 +30,9 @@ group :test do
   gem "rspec-expectations", :git => "git://github.com/rspec/rspec-expectations.git"
   gem "rspec-mocks",        :git => "git://github.com/rspec/rspec-mocks.git"
 
+  gem 'annotate-models', '1.0.4'
   gem 'spork', '0.8.4'
+  gem 'factory_girl_rails', '1.0'
 end
 
 
